@@ -1,0 +1,213 @@
+body
+{
+	font-family: sans-serif, Arial;
+	font-size: 	1em;
+	padding-left: 	25px;
+	width: 90%
+}
+
+h2
+{
+	border-bottom: 2px solid ;
+	color: blue;
+}
+
+h3
+{
+	text-decoration: underline	;	
+	color: 	blue;
+}
+.intro
+{
+	background-color: blue;
+	padding: 0px; 
+	margin: auto;
+	color: white;
+	width: 80%;
+	border : 2px solid black;
+	text-align: center;
+	box-shadow: 3px 3px 3px black;
+	margin-top: 40px;
+	border-radius: 	5px;
+	}
+
+.intro h1
+{
+	font-size: 	1.3em;
+}
+
+p
+{
+/*Ne marche pas*/
+}
+header
+{
+	display: 	flex;	
+	flex-direction: 	row;
+	font-size: 	0.9em;
+}
+
+#header_gauche
+{
+	width: 	80%;
+}
+
+#header_droite
+{
+	width: 	20%;
+}
+
+#competences
+{
+	display: 	flex;	
+	flex-direction: 	column;	
+	justify-content: 	space-around	;	
+	align-items: 	center	;
+}
+
+#liste_competences
+{
+	display: 	flex;
+	font-size: 	0.9em;
+		
+}
+
+#liste_competences li
+{
+	list-style-image:   url("arrow2.png");	
+	margin-left: 	5px;
+}
+
+#en_tete_experience
+{
+	text-align: center;
+}
+
+#experience
+{
+	display: 	flex;	
+	flex-direction: 	column;
+	width: 	100%;
+}
+
+.poste
+{
+	display: 	flex;	
+	flex-direction: 	row;	
+	text-align: 	justify;
+}
+
+.date
+{
+	width: 	15%;
+	font-size: 	0.8em;
+	font-weight: 	bold;
+}
+
+.emploi
+{
+	width: 	85%;
+	border: 2px solid blue;	
+	border-radius: 10px;
+}
+
+#autres_competences
+{
+	display: 	flex;
+	flex-direction: 	column;
+	margin-top: -20px;		
+}
+
+#liste_autres_competences
+{
+	display: 	flex;	
+	flex-direction: 	row;
+}
+
+#autres_competences h3
+{
+	color: 	black;
+	font-size: 	1em;
+	text-decoration: 	none;
+	font-weight: 	bold;
+}
+#langues
+{
+	
+	width: 	50%;
+}
+
+#langues ul
+{
+	list-style-type: 	none;
+	margin-left: 	-40px;	
+}
+
+#langues li
+{
+	display: 	flex;
+	flex-direction: 	row;
+	justify-content: 	space-between;		
+}
+
+#informatique
+{
+	width: 	50%;
+}
+
+#informatique ul
+{
+	list-style-type: 	none;	
+	margin-left: 	-40px;
+}
+
+#informatique li
+{
+	display: 	flex;
+	flex-direction: 	row;
+	justify-content: 	space-between;	
+}
+
+.item
+{
+	width: 	30%;
+}
+
+.description
+{
+	width: 	70%;
+}
+
+.formation
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: -10px;
+}
+
+.formation ul
+{
+	list-style-type: none;
+	margin-left: -40px;
+	margin-top: 0px;
+	display: 	flex;
+	flex-direction: 	row;	
+}
+
+#scolarite
+{
+	margin-bottom: 100px;
+}
+
+#scolarite a
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+#scolarite a:hover
+{
+	text-decoration: underline;
+	color: blue;
+}
